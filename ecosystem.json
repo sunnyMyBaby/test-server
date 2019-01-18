@@ -15,7 +15,7 @@
     "production": {
       "user": "yg",
       "host": ["39.96.4.34"],
-      "port": "19999",
+      "port": "22",
       "ref": "origin/master",
       "repo": "https://github.com/sunnyMyBaby/test-server.git",
       "path": "/home/yg/www/web/production",
