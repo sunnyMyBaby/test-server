@@ -5,7 +5,7 @@ const homePage = `
 <html>
   <head>
     <meta charset='utf-8'>
-    <title>Nodejs 部署上线示例（随时失效）</title>
+    <title>Nodejs 部署上线示例</title>
     <style type="text/css">
       * {
         padding: 0;
@@ -39,21 +39,11 @@ const homePage = `
     </style>
   </head>
   <body>
-    <h1>慕课网 Nodejs 高级课程案例</h1>
-    <h2>项目部署上线示例</h2>
+    <h1>yg不是测试用例</h1>
     <nav>
       <ul>
         <li>
-          <a target="_blank" href="/a">Nodejs 电影网站</a>
-        </li>
-        <li>
-          <a target="_blank" href="/b">狗狗说 App 后台</a>
-        </li>
-        <li>
-          <a target="_blank" href="/c">微信小程序后台</a>
-        </li>
-        <li>
-          <a target="_blank" href="/d">微信公众号后台</a>
+          <a target="_blank" href="/ygui">yi-ui</a>
         </li>
       </ul>
     </nav>
