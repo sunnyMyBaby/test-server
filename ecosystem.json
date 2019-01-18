@@ -1,7 +1,7 @@
 {
-  "app":[
+  "apps":[
     {
-      "name": "testServer",
+      "name": "ygServerTest",
       "script": "app.js",
       "env": {
         "COMMON_VARIABLE": "true"
@@ -15,7 +15,7 @@
     "production": {
       "user": "yg",
       "host": ["39.96.4.34"],
-      "port": "39999",
+      "port": "19999",
       "ref": "origin/master",
       "repo": "https://github.com/sunnyMyBaby/test-server.git",
       "path": "/home/yg/www/web/production",
