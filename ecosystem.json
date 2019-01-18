@@ -1,0 +1,26 @@
+{
+  "app":[
+    {
+      "name": "test-server",
+      "script": "app.js",
+      "env": {
+        "COMMON_VARIABLE": "true"
+      },
+      "env_production": {
+        "NODE_ENV": "production"
+      }
+    }
+  ],
+  "deploy":{
+    "production": {
+      "user": "yg",
+      "host": ["39.96.4.34"],
+      "ref": "origin/master",
+      "repo": "https://github.com/sunnyMyBaby/test-server.git",
+      "path": "/home/yg/www/web/production",
+      "env": {
+        "NODE_ENV": "production"
+      }
+    }
+  }
+}
