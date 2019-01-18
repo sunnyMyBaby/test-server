@@ -19,7 +19,6 @@
       "ref": "origin/master",
       "repo": "https://github.com/sunnyMyBaby/test-server.git",
       "path": "/home/yg/www/web/production",
-      "ssh_options": "StricHostKeyChecking=no",
       "env": {
         "NODE_ENV": "production"
       }
